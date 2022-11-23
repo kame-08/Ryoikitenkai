@@ -11,6 +11,10 @@
 		2A2C0C68292DB78F00626E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C0C67292DB78F00626E0C /* ContentView.swift */; };
 		2A2C0C6A292DB79100626E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C0C69292DB79100626E0C /* Assets.xcassets */; };
 		2A2C0C6D292DB79100626E0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C0C6C292DB79100626E0C /* Preview Assets.xcassets */; };
+		2A2C0C74292DB7CC00626E0C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C0C73292DB7CC00626E0C /* ContentViewModel.swift */; };
+		2A2C0C76292DB7F300626E0C /* TenkaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C0C75292DB7F300626E0C /* TenkaiView.swift */; };
+		2A2C0C78292DB81500626E0C /* TenkaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C0C77292DB81500626E0C /* TenkaiViewModel.swift */; };
+		2A2C0C7A292DB83F00626E0C /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C0C79292DB83F00626E0C /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2A2C0C67292DB78F00626E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A2C0C69292DB79100626E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2C0C6C292DB79100626E0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A2C0C73292DB7CC00626E0C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2A2C0C75292DB7F300626E0C /* TenkaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenkaiView.swift; sourceTree = "<group>"; };
+		2A2C0C77292DB81500626E0C /* TenkaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenkaiViewModel.swift; sourceTree = "<group>"; };
+		2A2C0C79292DB83F00626E0C /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				2A2C0C65292DB78F00626E0C /* RyoikitenkaiApp.swift */,
 				2A2C0C67292DB78F00626E0C /* ContentView.swift */,
+				2A2C0C73292DB7CC00626E0C /* ContentViewModel.swift */,
+				2A2C0C75292DB7F300626E0C /* TenkaiView.swift */,
+				2A2C0C77292DB81500626E0C /* TenkaiViewModel.swift */,
+				2A2C0C79292DB83F00626E0C /* CodeView.swift */,
 				2A2C0C69292DB79100626E0C /* Assets.xcassets */,
 				2A2C0C6B292DB79100626E0C /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2C0C78292DB81500626E0C /* TenkaiViewModel.swift in Sources */,
 				2A2C0C68292DB78F00626E0C /* ContentView.swift in Sources */,
 				2A2C0C66292DB78F00626E0C /* RyoikitenkaiApp.swift in Sources */,
+				2A2C0C7A292DB83F00626E0C /* CodeView.swift in Sources */,
+				2A2C0C76292DB7F300626E0C /* TenkaiView.swift in Sources */,
+				2A2C0C74292DB7CC00626E0C /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				DEVELOPMENT_TEAM = NS2U56N5HL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "領域展開";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +316,7 @@
 				DEVELOPMENT_TEAM = NS2U56N5HL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "領域展開";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
