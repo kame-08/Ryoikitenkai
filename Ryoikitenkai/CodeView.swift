@@ -21,12 +21,12 @@ struct CodeView: View {
                 HStack(spacing: 0) {
                     Text(rouNumStr)
                         .foregroundColor(Color.gray)
-                        .lineLimit(isfull ? 500 : 10)
+                        .lineLimit(isfull ? nil : 10)
                     VStack(spacing: 0) {
                         ScrollView(.horizontal) {
                             Text(code)
                                 .font(.system(.body, design: .monospaced))
-                                .lineLimit(isfull ? 500 : 10)
+                                .lineLimit(isfull ? nil : 10)
                         }
                     }
                 }
